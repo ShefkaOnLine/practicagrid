@@ -1,0 +1,112 @@
+#container {
+    display: grid;
+    width: 1600px;
+    height: 1300px;
+
+    background-color: #BDBDBD;
+
+    grid-template-columns: [first] 300px [second] 300px [third] 300px [fourth] 300px [fifth] 300px;
+
+    grid-template-rows: [first] 300px [second] 300px [third] 300px [fourth] 300px;
+
+    /*grid-template-areas:
+    "1 2 3 4 5"
+    "6 6 7 7 ."
+    "6 6 7 7 8"
+    ". 9 . 10";*/
+
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+
+#ima_a {
+    grid-column-start: first;
+    grid-column-end: first;
+    grid-row-start: first;
+    grid-row-end: first;
+
+    background-image: url(IMGS/pexels-aron-visuals-1643113.jpg);
+}
+
+#ima_b {
+    grid-column-start: second;
+    grid-column-end: second;
+    grid-row-start: first;
+    grid-row-end: first;
+
+    background-image: url(IMGS/pexels-asad-photo-maldives-3293148.jpg);
+}
+
+#ima_c {
+    grid-column-start: third;
+    grid-column-end: third;
+    grid-row-start: first;
+    grid-row-end: first;
+
+    background-image: url(IMGS/pexels-elianne-dipp-4666751.jpg);
+}
+
+#ima_d {
+    grid-column-start: fourth;
+    grid-column-end: fourth;
+    grid-row-start: first;
+    grid-row-end: first;;
+
+    background-image: url(IMGS/pexels-gustavo-cruz-1592119.jpg);
+}
+
+#ima_e {
+    grid-column-start: fifth;
+    grid-column-end: fifth;
+    grid-row-start: first;
+    grid-row-end: first;
+
+    background-image: url(IMGS/pexels-jeremy-bishop-2422915.jpg);
+}
+
+#ima_f {
+    grid-column-start: first;
+    grid-column-end: third;
+    grid-row-start: second;
+    grid-row-end: fourth;
+
+    background-image: url(IMGS/pexels-kasuma-1785493.jpg);
+}
+
+#ima_g {
+    grid-column-start: third;
+    grid-column-end: fifth;
+    grid-row-start: second;
+    grid-row-end: fourth;
+
+    background-image: url(IMGS/pexels-paul-ijsendoorn-33041.jpg);
+}
+
+#ima_h {
+    grid-column-start: fifth;
+    grid-column-end: fifth;
+    grid-row-start: third;
+    grid-row-end: third;
+
+    background-image: url(IMGS/pexels-stein-egil-liland-3408744.jpg);
+}
+
+#ima_i {
+    grid-column-start: second;
+    grid-column-end: third;
+    grid-row-start: fourth;
+    grid-row-end: fourth;
+
+    background-image: url(IMGS/pexels-tobias-bjørkli-2113566.jpg);
+}
+
+#ima_j {
+    grid-column-start: fourth;
+    grid-column-end: fifth;
+    grid-row-start: fourth;
+    grid-row-end: fourth;
+
+    background-image: url(IMGS/pexels-zetong-li-1784578.jpg);
+}
