@@ -1,0 +1,68 @@
+#cuadricula {
+    display: grid;
+      grid-gap: 10xp;
+    width: 1600px;
+    height: 720px;
+    grid-template-columns: repeat(5 min-max ( 300px, 1fr ));
+    grid-template-rows: repeat(4 min-max (300px, 1fr));
+    grid-template-areas:
+    "ima1 ima2 ima3 ima4 ima5"
+    "ima6 ima6 ima7 ima7 ima8"
+    "ima6 ima6 ima7 ima7 ."
+    "ima9 . . ima10 .";
+    grid-gap: 20px;
+    
+  }
+  
+  #one {
+    
+    background-color: green;
+    grid-area: ima1;
+  }
+  #two {
+   
+    background-color: black;
+    grid-area: ima2;
+  }
+  #three {
+   
+    background-color: gray;
+    grid-area: ima3;
+  }
+  
+  #four {
+    
+    background-color: pink;
+    grid-area: ima4;
+  }
+  #five {
+    
+    background-color: yellow;
+    grid-area: ima5;
+  }
+  #six {
+    
+    background-color: orange;
+    grid-area: ima6;
+  }
+  
+  #seven {
+    
+    background-color: brown;
+    grid-area: ima7;
+  }
+  #eigth{
+    display: flex;
+    background-color: red;
+    grid-area: ima8;
+  }
+  #nine {
+    
+    background-color: purple;
+    grid-area: ima9;
+  }
+  #ten {
+    display: flex;
+    background-color: blue;
+    grid-area: ima10;
+  }
